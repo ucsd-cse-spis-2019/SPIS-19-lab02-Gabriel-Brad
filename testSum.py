@@ -38,3 +38,29 @@ def sumDigits():
                                 return digitsum
 print(sumDigits())                        
 
+def convertWageMtoW(): 
+        country = input("Please enter a country: ")
+        mwage = float(input("enter male's wage: "))
+        region = ["United States", "Korea", "Japan", "Finland", "Germany"]
+        if country == region[0]:
+                wage_gap = 0.182
+                ratio = 1 - wage_gap
+                return mwage * wage_gap
+        elif country == region[1]:
+                wage_gap = 0.346
+                ratio = 1 - wage_gap
+                return mwage * ratio
+        elif country == region[2]:
+                wage_gap = 0.245
+                ratio = 1 - wage_gap
+                return mwage * ratio
+        elif country == region[3]:
+                wage_gap = 0.177
+                ratio = 1 - wage_gap
+                return mwage * ratio
+        elif country == region[4]:
+                wage_gap = 0.162
+                ratio = 1 - wage_gap
+                return mwage * ratio
+        
+        
