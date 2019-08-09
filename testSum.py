@@ -37,3 +37,4 @@ def sumDigits():
                                 digitsum = Threestorage + Twostorage + Onestorage
                                 return digitsum
 print(sumDigits())                        
+
