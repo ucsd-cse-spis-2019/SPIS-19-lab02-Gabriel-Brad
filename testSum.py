@@ -28,7 +28,7 @@ def sumDigits():
                                 quotient = number % 10
                                 Onestorage = quotient
                                 difference = number - quotient
-                                divide = diffreence//10
+                                divide = difference//10
                                 twosome = divide % 10 
                                 Twostorage = twosome 
                                 selfo = divide - twosome
