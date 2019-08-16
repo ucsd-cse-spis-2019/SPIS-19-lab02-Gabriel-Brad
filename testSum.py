@@ -40,7 +40,7 @@ print(sumDigits())
 
 def convertWageMtoW(): 
         country = input("Please enter a country: ")
-        mwage = float(input("enter male's wage: "))
+        mwage = float(input("Enter the Men's Wage: "))
         region = ["United States", "Korea", "Japan", "Finland", "Germany"]
         if country == region[0]:
                 wage_gap = 0.182
